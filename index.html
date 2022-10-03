@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/padrao.css" rel="stylesheet">
+    <title>Calculadora de Pitágoras</title>
+</head>
+
+<header>
+        <div class="titulo">
+            <h1>Calculadora Pitágoras</h1>
+        </div>
+</header>
+
+<body>
+    <div class="coluna">        
+        <div class="conteudo-body">
+            <img src="/img/Triangulo.svg">
+        </div>
+        <div class="conteudo-body">
+            <p>Siga o modelo do triângulo ao lado para calcular as variáveis.</p>
+            <p> Se for o caso, deixe em branco a variável que deseja descobrir: </p>
+        </div>
+
+        <!-- Pegar os dados inseridos pelo usuário -->
+            <label>Lado a</label>
+            <input type="text" id="hipotenusa"><br><br>
+            <label>Lado b</label>
+            <input type="text" id="catetoA"><br><br>
+            <label>Lado c</label>
+            <input type="text" id="catetoB"><br><br>
+            <button class="botao-enviar" onClick="verificar()">Enviar</button>
+    </div>
+    <div id="resultado"></div>
+        
+    <script src="/calculadoraPit.js"></script>
+</body>
+</html>

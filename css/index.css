@@ -1,0 +1,27 @@
+.titulo {
+    text-align: center;
+    background-color: #260318;
+    color: #fff;
+    height: 50px;
+}
+
+body {
+    background-color: #d9d9d9;
+    background-size: cover;
+}
+
+.background-teste{
+    width: 100%;
+    height: 100%;
+}
+
+
+.conteudo-body {
+    width: 50%;
+    height: 50%;
+}
+
+img {
+    width: 350px;
+}
+

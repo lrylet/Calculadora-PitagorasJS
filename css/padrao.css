@@ -1,0 +1,7 @@
+.linha {
+    flex-direction: row;
+  }
+  
+  .coluna {
+    flex-direction: column;
+  }
